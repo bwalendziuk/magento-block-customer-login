@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Backend:etc/menu.xsd">
+    <menu>
+        <add id="BwMagento_BlockCustomerLogin::block_customer_login"
+             title="Block Customer Login"
+             module="BwMagento_BlockCustomerLogin"
+             sortOrder="0"
+             action="admin/system_config/edit/section/block_customer_login"
+             parent="BwMagento_BlockCustomerLogin::core"
+             resource="Magento_Backend::content" />
+    </menu>
+</config>

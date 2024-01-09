@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Store:etc/config.xsd">
+    <default>
+        <block_customer_login>
+            <general>
+                <enable>1</enable>
+                <default_error_message>Your account was blocked by system administrator please contact with us.</default_error_message>
+            </general>
+        </block_customer_login>
+    </default>
+</config>

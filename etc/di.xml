@@ -1,0 +1,6 @@
+<?xml version="1.0" ?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:ObjectManager/etc/config.xsd">
+    <type name="Magento\Customer\Model\Authentication">
+        <plugin name="BwMagento_BlockCustomerLogin_Plugin_Magento_Customer_Model_Authentication" type="BwMagento\BlockCustomerLogin\Plugin\Magento\Customer\Model\Authentication" sortOrder="10" disabled="false"/>
+    </type>
+</config>
